@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rad span{
+    color: white;
+}
+
+.clic{
+    margin-left: 480px;
+    margin-top: -210px;
+    width: 80px;
+    height: 250px;
+    background: transparent;
+    border: none;
+}
+
+.clic:hover{
+    background-color: rgba(0, 0, 0, 0.112);
+}
+
+.rad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cout {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 42.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/9d/ea/17/9dea178b222516cd1b47814b3b36aa51.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.middle{
+    margin: 0 7.5px;
+    height: 130px;
+}
+
+.machine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("img/pngaaa.com-1300042.png");
+    background-attachment: fixed;
+    background-position:52.25% 26.5%;
+    background-repeat: no-repeat;
+    background-size: 30% ;
+    width: 70%;
+    height: 100vh;
+}
+
+.cadre {
+    background-color: gold;
+    padding: 5px;
+}
+
+.boutton{
+    height: 20px;
+    position: absolute;
+    z-index: 100;
+}
+
+.sous-cadre{
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.affichage{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.animate {
+    animation: slideDown 0.1s ease-in-out 20;
+}
+
+@keyframes slideDown {
+    0% {
+        filter: blur(10px);
+        transform: translateY(-100px);
+    }
+    100% {
+        filter: blur(10px);
+        transform: translateY(100px);
+    }
+}
+
+.compte{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+}
+
+.reponse{
+    height: 20px;
+    background-color: white;
+}

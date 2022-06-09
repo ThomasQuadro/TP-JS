@@ -1,0 +1,99 @@
+/*---------------*/
+
+.liste-article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.liste-article h1{
+    font-size: 50px;
+    padding: 50px;
+}
+
+.art1{
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    border: 1px black solid;
+    margin: 10px 0;
+}
+
+.art1 button{
+    margin: 10px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.art1 button img{
+    width: 100%;
+}
+
+.art1 button:hover{
+    content: url("../img/recycle-bin.png");
+}
+
+.art1 button:active{
+    background-color: rgba(128, 128, 128, 0.50);
+}
+
+.art1 img{
+    width: 200px;
+}
+
+.art1 input{
+    margin-left: 20px;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.liste-article h2 a{
+    text-decoration: none;
+    color: rgba(41, 23, 23, 0.8);
+}
+
+.art1 span{
+    width: 50%;
+    font-size: 20px;
+    text-align: right;
+}
+
+.art1 .prix-article{
+    width: 20%;
+    font-size: 20px;
+    text-align: right;
+}
+/*--------------------------------*/
+
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.group{
+    width: 70%;
+    border-top: black 3px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group h2{
+    padding: 10px;
+}

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #95A7B9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------------------------*/
+header{
+    width: 100%;
+    height: 107px;
+    background-color: #4dd5ff76;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2{
+    font-size: 40px;
+}
+/*---------------------------*/
+
+section.search{
+    width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+section.search h2{
+    font-size: 35px;
+    color: white;
+    margin: 10px 0;
+}
+
+.searchbar{
+    width: 100%;
+    height: 35px;
+    display: inline-flex;
+    margin: 10px 0;
+}
+
+#input{
+    width: 90%;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius:15px;
+    border: solid 1px black;
+    padding-left:10px ;
+}
+
+#callweather{
+    width: 10%;
+    height: 100%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius:15px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#callweather img{
+    width: 35%;
+}
+/*-------------------------------*/
+
+.suggestion{
+    display: none;
+    width: 100%;
+    max-height: 155px;
+    background-color: white;
+    border: black 1px solid;
+    overflow: scroll;
+    overflow-x: hidden; 
+
+}
+
+#suggest{
+    width: 100%;
+}
+
+ul li button{
+    width: 100%;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+ul li button:hover{
+    background-color: rgb(202, 222, 240);
+}
+/*---------------------------------------*/
+
+section.resultat{
+    width: 50%;
+    height: 300px;
+    background-color: #4dd5ff76;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#temps{
+    width: 150px;
+}
+
